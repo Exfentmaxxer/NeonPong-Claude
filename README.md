@@ -4,6 +4,44 @@ A cyberpunk-themed Pong game with stunning visual effects, particle systems, and
 
 ![Game Preview](https://img.shields.io/badge/Python-3.7+-blue.svg) ![Pygame](https://img.shields.io/badge/Pygame-2.5.0+-green.svg)
 
+## 🚀 Quick Start (Automatic Installation)
+
+Download and play in seconds! All dependencies install automatically:
+
+### Windows
+```bash
+# Double-click setup.bat or run in terminal:
+setup.bat
+
+# Or use the quick launcher:
+play.bat
+```
+
+### Linux / Mac
+```bash
+# Run the setup script:
+chmod +x setup.sh
+./setup.sh
+
+# Or use the quick launcher:
+chmod +x play.sh
+./play.sh
+```
+
+### Universal (All Platforms)
+```bash
+# Python launcher with auto-install:
+python play.py
+
+# Or traditional setup:
+python setup.py
+```
+
+That's it! The scripts will automatically:
+- ✅ Check for Python
+- ✅ Install Pygame if needed
+- ✅ Launch the game
+
 ## Features
 
 ### Core Gameplay
@@ -56,10 +94,18 @@ A cyberpunk-themed Pong game with stunning visual effects, particle systems, and
 ## Installation
 
 ### Prerequisites
-- Python 3.7 or higher
-- pip (Python package manager)
+- Python 3.7 or higher (download from [python.org](https://www.python.org/downloads/))
+- pip (included with Python)
 
-### Setup
+### Automatic Installation (Recommended)
+
+**See the [Quick Start](#-quick-start-automatic-installation) section above!**
+
+The setup scripts automatically handle everything for you.
+
+### Manual Installation
+
+If you prefer to install manually:
 
 1. **Clone or download this repository**
    ```bash
@@ -79,17 +125,19 @@ A cyberpunk-themed Pong game with stunning visual effects, particle systems, and
 
 ## Running the Game
 
-Simply run the main game file:
+### Easy Way (Auto-Install)
+```bash
+python play.py
+```
 
+### Direct Launch
 ```bash
 python pong_game.py
 ```
 
-Or make it executable (Linux/Mac):
-```bash
-chmod +x pong_game.py
-./pong_game.py
-```
+### Platform-Specific Launchers
+- **Windows**: Double-click `play.bat` or run `play.bat` in terminal
+- **Linux/Mac**: Run `./play.sh` (or `chmod +x play.sh && ./play.sh`)
 
 ## How to Play
 
